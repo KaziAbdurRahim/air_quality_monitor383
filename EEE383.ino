@@ -4,8 +4,8 @@
 #include <math.h>
 
 // ===== WIFI CONFIG =====
-const char* ssid = "Kazi";
-const char* password = "kazi1405";
+const char* ssid = "wifiNAme";
+const char* password = "wifiPassword";
 
 WebServer server(80);
 
