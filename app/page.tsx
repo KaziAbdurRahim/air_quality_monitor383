@@ -29,8 +29,7 @@ export default function Dashboard() {
   const latest = data[data.length - 1];
 
   return (
-    <main className="dashboard">
-      <h1 className="text-amber-200">Air Quality Monitor Dashboard</h1>
+    <main className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6">
       <StatusCard connected={connected} latest={latest} />
       {connected && (
         <>
